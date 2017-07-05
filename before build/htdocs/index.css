@@ -1,0 +1,148 @@
+.App {
+    height: 100%;
+}
+
+html, body, #app, #app>div {
+    height: 100%
+}
+
+.row {
+    height: 100%;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid black 5px;
+    padding: 60px;
+}
+
+.sideNav {
+    border-right: solid black 5px;
+    border-bottom: solid black 5px;
+    height: 768px;
+    padding-left: 0px;
+    padding-right: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.nav {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dna {
+    zoom: 50%;
+}
+
+.crossedOut {
+    color: red;
+    text-decoration: line-through;
+}
+
+.main {
+    height: 768px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: solid black 5px;
+}
+
+.mainTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+hr {
+    width: 90px;
+    height: 5px;
+    background-color: #629bf7;
+    border: none;
+}
+
+.aboutText {
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: right;
+}
+
+.productTitle {
+    margin: 30px;
+    margin-left: 15%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sliderContainer {
+    margin-top: 250px;
+    width: 70%;
+    margin: auto;
+}
+
+.slide {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #629bf7;
+}
+
+.mainContainer {}
+
+.bgImage {
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 763px;
+    z-index: -5;
+}
+
+.blurb1 {
+    padding-top: 320px;
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.blurb2 {
+    padding-top: 20px;
+    padding-left: 265px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.blurb3 {
+    padding-top: 190px;
+    padding-right: 235px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.notFound {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 150px;
+}
